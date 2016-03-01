@@ -1,0 +1,268 @@
+body {
+    background-color: #000;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, ul, li {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+li { float: left;}
+
+ul { 
+    list-style: none;
+}
+
+header { background-color: rgba(66,133,244,1);}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#wrapper {
+    background-color: #fff;
+    height: 1068px;
+    position: relative;
+    margin: 0 auto;
+    width: 768px;
+    
+}
+
+header {
+    height: 70px;
+    padding: 30px 20px 0px;
+    vertical-align: middle;
+}
+
+header h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(66,133,244,1);
+    bottom: 0;
+    height: 40px;
+    padding: 10px 10px;
+    position: absolute;
+    width: 748px;
+}
+
+#main-menu ul li, #receipe ul li {
+    padding: 0 20px;
+    margin: 0;
+}
+
+#main-menu {}
+
+#main-menu h2 {
+    background-color: rgba(66,133,244,1);
+    padding: 5px 10px;
+}
+
+#main-menu ul li {
+    /* order-bottom: 1px solid #000; */
+    display: inline-block;
+    height: 171px;
+    padding: 10px 10px 0;
+    margin: 0 5px;
+    width: 738px;
+}
+
+#main-menu li>a {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    float: left;
+    display: block;
+    height: 80%;
+    width: 345px;
+    padding: 0 10px;
+}
+
+#main-menu li a:nth-child(2) {
+    /*border-right: 1px solid #000;*/
+    margin-right: 8px;
+}
+
+#main-menu p {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+#main-menu h2 i {
+    float: right;
+    padding-top: 3px;
+}
+
+#receipe {
+    border: 0;
+    padding: 10px 10px;
+}
+#calendar {
+    border: 0;
+    padding: 10px 10px;
+}
+
+#calendar table {
+    margin: 0 auto;
+}
+
+#receipe table {
+    width: 748px;
+}
+
+#receipe tr {
+    margin: 0 10px;
+    height: 60px;
+}
+
+
+
+#receipe tr:nth-child(2n+1) {
+    background-color: rgba(66,133,244,0.3);
+}
+
+#receipe tr:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(66,133,244,1);
+}
+
+#receipe tr:nth-child(2n+1) td {
+    /* border-right: 3px solid #fff; */
+}
+
+#receipe tr:nth-child(2n) td {
+    /* border-right: 3px solid #aad; */
+}
+
+#receipe tr td:first-child { padding-left: 20px;}
+#receipe tr td:last-child { padding-right: 20px;}
+
+#receipe td {
+    border-bottom: 1px solid #000;
+    padding: 5px;
+}
+
+#receipe p {
+    padding: 0;
+    margin: 0;
+    
+}
+
+#receipe h2 {
+    padding: 10px 20px;
+}
+
+
+#main-menu ul li:nth-child(even) {
+    /*background-color: #aad;*/
+}
+
+
+.hidden {
+    display: none;
+}
+
+.button:focus ~ .hidden {
+    display: block;
+}
+
+#ingredient, #date, #recipe {
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
+
+#calendar table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    display: inline-table;
+    float: left;
+    margin-right: 30px;
+}
+
+
+#calendar tr td {
+    box-shadow: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(66,133,244,1);
+    text-align: center;
+    
+}
+
+#calendar table a {
+    border-radius: 5px;
+    color: #fff;
+    display: table;
+    height: 100%;
+    width:  100%;
+    position: relative;
+}
+
+#calendar table a span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#calendar thead>tr td{
+    background-color: #fff;
+    color: #000;
+    height: 50px;
+}
+
+#calendar tr td:first-child {
+    margin-right: 100px;
+}
+
+#recipe {
+    position: relative;
+    height: 100%;
+}
+
+#date ul li, #recipe ul li {
+    border-bottom: 1px solid #000;
+    padding: 5px 5px;
+    width: 728px;
+}
+
+#date ul li:nth-child(2n), #recipe ul li:nth-child(2n) {
+    background-color: rgba(66,133,244,0.3);
+}
+
+#date div {
+    background-color: rgba(66,133,244,0.3);
+    height: 280px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#date div h2 {
+    background-color: rgba(66,133,244,1);
+    padding: 0 10px;
+}
+
+#date div h2 i {
+    float: right; 
+    padding-top: 3px;
+}
+
+#date div p {
+    padding:  0 10px;
+}
+
+#searchbar {
+    border-radius: 10px;
+    float: right;
+    height: 40px;
+    padding: 0 10px;
+    width: 180px;
+}
