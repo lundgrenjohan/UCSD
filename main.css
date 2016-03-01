@@ -64,7 +64,7 @@ footer {
 }
 
 #main-menu ul li {
-    /* order-bottom: 1px solid #000; */
+     
     display: inline-block;
     height: 171px;
     padding: 10px 10px 0;
@@ -73,8 +73,8 @@ footer {
 }
 
 #main-menu li>a {
-    background-color: #fff;
-    border-radius: 0 0 10px 10px;
+    background-color: rgba(66,133,244,0.3);
+    /*border-radius: 0 0 10px 10px; */
     float: left;
     display: block;
     height: 80%;
@@ -90,6 +90,7 @@ footer {
 #main-menu p {
     font-size: 24px;
     font-family: sans-serif;
+    /*background-color: rgba(66,133,244,0.3);*/
 }
 
 #main-menu h2 i {
