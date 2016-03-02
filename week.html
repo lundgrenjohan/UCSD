@@ -1,58 +1,70 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+	<head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="theme.css">
     <link rel="stylesheet" href="../../web/font-awesome/css/font-awesome.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title></title>
-</head>
+		<script>
+			$( "input" )
+			.keyup(function() {
+			var value = $( this ).val();
+			$( "p" ).text( value );
+			})
+			.keyup();
+		</script>
+	</head>
 
-<body>
+	<body>
     <div id="wrapper">
-        <header>
-            <h1>
-                <a href="" style="float: left;">Back</a> Week X <a href="" style="float: right;"></a>
-            </h1>
-        </header>
-        <footer>
-
-        </footer>
-        <article id="main-menu">
-            <ul>
-                <li>
-                    <h2>Monday 29 Feb<i class="fa fa-arrow-right"></i></h2>
-                    <a href="">
-                    <p>Chicken tikka masala with jasmine rice</p></a>
-                    <a href="">
-                    <p>Oriental lentil stew with jasmine rice</p></a>
-                </li>
-                <li>
-                    <h2>Tuesday 1 Mars<a href="date.html"><i class="fa fa-arrow-right"></i></a></h2>
-                    <a href="codstew.html"><p>Cod Stew with potatoes, dill, and fennel</p></a>
-                    <a href="rootvegetable.html"><p>Root vegetable stew with potatoes</p></a>
-                </li>
-                <li>
-                    <h2>Wednesday 2 Mars<i class="fa fa-arrow-right"></i></h2>
-                    <a href=""><p>Malty Bolognese with penne rigate</p></a>
-                    <a href=""><p>Malty soy Bolognese with penne rigate</p></a>
-                </li>
-                <li>
-                    <h2>Thursday 3 Mars<i class="fa fa-arrow-right"></i></h2>
-                    <a href=""><p>Roast beef with potato wedges and green pepper sauce</p></a>
-                    <a href=""><p>Roasted beef with potato wedges and green pepper sauce</p></a>
-                </li>
-                <li>
-                    <h2>Friday 4 Mars<i class="fa fa-arrow-right"></i></h2>
-                    <a href=""><p>Salmon with dill potatoes tossed in butter lemon sauce</p></a>
-                    <a href=""><p>Tofu with dill potatoes tossed in butter and lemon sauce</p></a>
-                </li>
-                <li></li>
-            </ul>
-        </article>
+      <header>
+        <h1>
+					<a href="" style="float: left;">
+						&lt; Back
+					</a>
+					Week 9
+        </h1>
+      </header>
+			<footer>
+      </footer>
+			
+      <article id="main-menu">
+        <ul>
+          <li>
+            <h2>Monday 29 Feb<i class="fa fa-arrow-right"></i></h2>
+            <a href="">
+              <p>Chicken tikka masala with jasmine rice</p></a>
+            <a href="">
+              <p>Oriental lentil stew with jasmine rice</p></a>
+          </li>
+          <li>
+            <h2>Tuesday 1 Mars<a href="date.html"><i class="fa fa-arrow-right"></i></a></h2>
+            <a href="codstew.html"><p>Cod Stew with potatoes, dill, and fennel</p></a>
+            <a href="rootvegetable.html"><p>Root vegetable stew with potatoes</p></a>
+          </li>
+          <li>
+            <h2>Wednesday 2 Mars<i class="fa fa-arrow-right"></i></h2>
+            <a href=""><p>Malty Bolognese with penne rigate</p></a>
+            <a href=""><p>Malty soy Bolognese with penne rigate</p></a>
+          </li>
+          <li>
+            <h2>Thursday 3 Mars<i class="fa fa-arrow-right"></i></h2>
+            <a href=""><p>Roast beef with potato wedges and green pepper sauce</p></a>
+            <a href=""><p>Roasted beef with potato wedges and green pepper sauce</p></a>
+          </li>
+          <li>
+            <h2>Friday 4 Mars<i class="fa fa-arrow-right"></i></h2>
+            <a href=""><p>Salmon with dill potatoes tossed in butter lemon sauce</p></a>
+            <a href=""><p>Tofu with dill potatoes tossed in butter and lemon sauce</p></a>
+          </li>
+          <li></li>
+        </ul>
+      </article>
     </div>
-</body>
+	</body>
 
 </html>

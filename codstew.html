@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="button.css">
@@ -9,64 +9,136 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <title></title>
-</head>
-<body>
-   <div id="wrapper">
-    <header>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
         <h1>
-            <a href="index.html" style="float: left;"><</a> Cod Stew with potatoes, dill, and fennel
+          <a href="index.html" style="float: left;">	
+						&lt;
+					</a>
+					TUESDAY 1 MARS MEAT
+					
         </h1>
-    </header>
-    
-    <article id="receipe">
-       <table cellspacing="0" cellpadding="0">
+
+			</header>
+			<article id="receipe">
+				<h2>Cod Stew with potatoes, dill, and fennel</h2>
+				<table cellspacing="0" cellpadding="0">
           <tr>
-              <td>Ingridient</td>
-              <td>Consume</td>
-              <td></td>
+            <td>Ingridient</td>
+            <td>Consume</td>
+            <td>Units</td>
+						<td>Packages</td>
           </tr>
-           <tr>
-               <td>Cod</td>
-               <td>18 kilo</td>
-               <td><form action="cod.html"><button class="button">Change</button></form></td>
-           </tr>
-           <tr>
-               <td>Potatoes</td>
-               <td>30 kilo</td>
-               <td><button class="button">Change</button></td>
-           </tr>
-           <tr>
-               <td>Dill</td>
-               <td>30 gram</td>
-               <td><button class="button">Change</button></td>
-           </tr>
-           <tr>
-               <td>Fennel</td>
-               <td>2 liters</td>
-               <td><button class="button">Change</button></td>
-           </tr>
-           <tr>
-               <td>Pepper</td>
-               <td>100 gram</td>
-               <td><button class="button">Change</button></td>
-           </tr>
-           <tr>
-               <td>Salt</td>
-               <td>100 gram</td>
-               <td><button class="button">Change</button></td>
-           </tr>
-           
-       </table>
+          <tr>
+            <td>Cod</td>
+						<td>
+							<input type='button' value='-'
+										 class='qtyminus' field='quantity' />
+
+							<input type='text' name='quantity' value='18'
+										 class='qty' />
+
+							<input type='button' value='+'
+										 class='qtyplus' field='quantity' />
+						</td>
+            <td>kilo</td>
+						<td>18</td>
+            
+          </tr>
+          <tr>
+            <td>Potatoes</td>
+						<td>
+							<input type='button' value='-'
+										 class='qtyminus' field='quantity' />
+
+							<input type='text' name='quantity' value='30'
+										 class='qty' />
+
+							<input type='button' value='+'
+										 class='qtyplus' field='quantity' />
+						</td>
+            <td>kilo</td>
+
+            <td>6</td>
+            
+          </tr>
+          <tr>
+            <td>Dill</td>
+						<td>
+							<input type='button' value='-'
+										 class='qtyminus' field='quantity' />
+
+							<input type='text' name='quantity' value='30'
+										 class='qty' />
+
+							<input type='button' value='+'
+										 class='qtyplus' field='quantity' />
+						</td>
+            <td>gram</td>
+
+            <td>1</td>
+            
+          </tr>
+					
+          <tr>
+            <td>Fennel</td>
+						<td>
+							<input type='button' value='-'
+										 class='qtyminus' field='quantity' />
+
+							<input type='text' name='quantity' value='2'
+										 class='qty' />
+
+							<input type='button' value='+'
+										 class='qtyplus' field='quantity' />
+						</td>
+            <td>liters</td>
+            <td>2</td>            
+          </tr>
+					
+          <tr>
+            <td>Pepper</td>
+						<td>
+							<input type='button' value='-'
+										 class='qtyminus' field='quantity' />
+
+							<input type='text' name='quantity' value='100'
+										 class='qty' />
+
+							<input type='button' value='+'
+										 class='qtyplus' field='quantity' />
+						</td>
+            <td>gram</td>
+            <td>0.3</td>            
+          </tr>
+          <tr>
+            <td>Salt</td>
+						<td>
+							<input type='button' value='-'
+										 class='qtyminus' field='quantity' />
+							
+							<input type='text' name='quantity' value='100'
+										 class='qty' />
+
+							<input type='button' value='+'
+										 class='qtyplus' field='quantity' />
+						</td>
+            <td>gram</td>
+            <td>0.2</td>
+          </tr>
+				</table>
         
-    </article>
-    <footer>
-      <a href="ingredient.html">
-       <i class="fa fa-plus fa-3x" style="color: #fff;"></i>
-        </a>
-       <button id="button-consume" style="float: right;">
-       Consume!
-       </button>
-    </footer>
-    </div>
-</body>    
+			</article>
+			<footer>
+				<a href="ingredient.html">
+					<i class="fa fa-plus fa-2x" style="color: #fff;"></i>
+				</a>
+				<button id="button-consume" style="float: right;">
+					Submit
+				</button>
+			</footer>
+		</div>
+	</body>    
 </html>
